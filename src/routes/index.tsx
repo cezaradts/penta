@@ -45,7 +45,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Painel com população, doses aplicadas e percentual de cobertura vacinal Pneumocócica Conjugada em 2026 nos municípios brasileiros.",
+          "Painel com população, doses aplicadas e percentual de cobertura vacinal Penta em 2026 nos municípios brasileiros.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -122,7 +122,7 @@ export function Index() {
       <header className="border-b border-border bg-card">
         <div className="mx-auto max-w-6xl px-6 py-10">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
-            Pneumocócica Conjugada·{" "}
+            Penta·{" "}
             {month === "todos" ? "jan–jun 2026 (acumulado)" : monthLabel(month)}
           </p>
           <h1 className="mt-3 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
