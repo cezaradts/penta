@@ -35,13 +35,13 @@ const monthLabel = (m: string) => {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Cobertura Vacinal Pneumocócica Conjugada 2026 por Município" },
+      { title: "Cobertura Vacinal Penta 2026 por Município" },
       {
         name: "description",
         content:
-          "Painel com população, doses aplicadas e percentual de cobertura vacinal Pneumocócica Conjugada em 2026 nos municípios brasileiros.",
+          "Painel com população, doses aplicadas e percentual de cobertura vacinal Penta em 2026 nos municípios brasileiros.",
       },
-      { property: "og:title", content: "Cobertura Vacinal Pneumocócica Conjugada 2026 por Município" },
+      { property: "og:title", content: "Cobertura Vacinal Penta 2026 por Município" },
       {
         property: "og:description",
         content:
