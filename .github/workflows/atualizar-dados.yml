@@ -3,7 +3,7 @@ name: Atualizar dados da vacinação
 on:
   push:
     paths:
-      - "src/data/pneumoconjugada.xlsx"
+      - "src/data/penta.xlsx"
       - ".github/workflows/atualizar-dados.yml"
   workflow_dispatch:
 
@@ -32,7 +32,7 @@ jobs:
           const XLSX = require("xlsx");
           const fs = require("fs");
 
-          const excelFile = "src/data/pneumoconjugada.xlsx";
+          const excelFile = "src/data/penta.xlsx";
           const jsonFile = "src/data/vacinacao.json";
 
           const workbook = XLSX.readFile(excelFile);
